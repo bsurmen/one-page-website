@@ -1,7 +1,203 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  
+}
+
+body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
+}
+
+/*-------Header Part-------*/
+
+.container {
+  background:  linear-gradient(
+    rgba(46, 49, 49, .6), 
+    rgba(46, 49, 49, .6)
+  ), url(./img/backgorund.jpg);
+  color: white;
+  background-size: cover;
+  text-align: center;
+  min-height: auto;
+}
+
+
+nav {
+
+
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.title {
+  text-align: left;
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  margin-top: 30px;
+
+}
+
+.menu {
+  text-align: right;
+  color: white;
+  margin-right: 80px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+
+.content {
+  text-align: center;
+  width: 100%;
+  padding: 300px 0;
+  position: relative;
+}
+
+.content h1{
+  padding: 0 650px;
+  font-size: 40px;
+}
+
+.content p{
+  padding: 0 640px;
+  font-size: 18px;
+}
+.orange-hr {
+  width: 3%;
+  border: 0;
+  border-top: 3px solid #f4623a;
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.white-hr {
+  opacity: unset;
+  border: 0;
+  border-top: 1px solid #ffffff;
+}
+
+.grey-text {
+  color: lightgray;
+  opacity: 0.8;
+}
+
+#button-orange {
+  background-color: #f4623a;
+  width: 10%;
+  margin: 3% auto;
+  border-radius: 30px;
+  padding: 1%;
+  transition: background-color 0.5s ease;
+  font-weight: bold;
+}
+
+#button-orange a {
+  color: white;
+  text-decoration: none;
+}
+
+#button-orange:hover {
+  background-color: rgb(236, 140, 122);
+}
+
+/*-------Orange Part-------*/
+
+.orange-area {
+  background-color: #f4623a;
+  color: white;
+  text-align: center;
+
+  padding: 3%;
+}
+
+.orange-h1 {
+  font-size: 50px;
+}
+
+.orange-area a {
+  text-decoration: none;
+  color: black;
+}
+
+.white-hr {
+  width: 3%;
+  border: 0;
+  border-top: 3px solid #ffffff;
+}
+
+.light-orange-text {
+  color: #fbcfc6;
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 510px;
+
+}
+
+#button-white {
+  background-color: white;
+  width: 8%;
+  margin: 3% auto;
+  border-radius: 40px;
+  padding: 1.3%;
+  transition: background-color 0.5s ease;
+  color: black;
+}
+
+#button-white:hover {
+  background-color: lightgray
+}
+
+/*-------White Part-------*/
+
+.white-area {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 100px auto 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+.white-area img {
+  width: 130px;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.item p {
+  width: 240px;
+  color: gray;
+  font-size: 18px;
 }
 
 /*-------Visual Part-------*/
@@ -16,18 +212,22 @@
 .visual h1 {
   margin-bottom: 2%;
   font-weight: 500;
-  display: block;
+
+ margin-top: 160px;
+
 }
 
 .visual img {
+  padding: 0;
+  margin: -3px;
   width: 33.333%;
-  height: 220px;
-  float: left;
+  height: 350px;
+
 }
 
 .button {
   border: none;
-  padding: 20px 40px;
+  padding: 30px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -45,10 +245,14 @@ footer {
 
 .contact h1 {
   margin-top: 10%;
+  font-size: 3em;
+  font-weight: 500;
 }
 
 .text {
   color: #7b7b89;
+  padding: 0 600px;
+ font-weight: 600;
 }
 
 .orange-container {
